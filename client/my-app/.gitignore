@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /.pnp
+
 .pnp.js
 
 # testing
@@ -21,3 +22,19 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Node
+server/node_modules/
+server/.env
+
+# React
+client/my-app/node_modules/
+client/my-app/.env
+
+# Backend
+server/node_modules/
+server/.env
+
+# Frontend
+client/my-app/node_modules/
+client/my-app/.env
